@@ -1,0 +1,76 @@
+html{
+    display: block;
+}
+html, body{
+    height: 100%;
+    background-color:#555555;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+    max-width: 1920px;
+    min-width: 480px;
+    height: 100%;
+}
+
+#logo{
+    display: block;
+    width: 320px;
+    max-width: 100%;
+    height:100px;
+    background: url('logo.png') no-repeat center;
+    background-size: contain;
+    float: left;
+}
+#logo{
+   margin: 0 auto; 
+}
+#myNavbar>ul>li>a{
+    margin: 40px 0px 0px 0px;
+    font-size: 16px;
+}
+
+
+main{
+    flex: 1 0 auto;
+    width: 100%;
+    flex-wrap: wrap;
+    overflow: hidden;
+    vertical-align: top;
+    align-items:center;
+   
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info{
+    flex: 1 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    min-width:500px;
+    margin: 0 auto;
+}
+
+.text{
+    height: inherit;
+    overflow: hidden;
+    position: relative;
+    width: inherit;
+    color: white;
+    font-size: 15px;
+}
+
+footer{
+    background-color: #FAFAFB;
+    flex: 0 0 auto;
+    display:flex;
+    width:100%;
+    height: 70px;
+}
