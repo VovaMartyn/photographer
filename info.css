@@ -11,7 +11,7 @@ html, body{
 body{
     display:flex;
     flex-direction:column;
-    max-width: 1920px;
+    max-width: 1600px;
     min-width: 480px;
     height: 100%;
 }
@@ -49,8 +49,9 @@ main{
 }
 
 .info{
-    width: 1200px;
+    width: 1920px;
     margin: 0 auto;
+    padding: 40px;
 
 }
 
