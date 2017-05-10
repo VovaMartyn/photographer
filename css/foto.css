@@ -11,7 +11,7 @@ html, body{
 body{
     display:flex;
     flex-direction:column;
-    max-width: 1920px;
+    max-width: 1600px;
     min-width: 480px;
     height: 100%;
 }
@@ -35,57 +35,20 @@ body{
 
 main{
     flex: 1 0 auto;
-    width: 100%;
     flex-wrap: wrap;
     overflow: hidden;
     vertical-align: top;
     align-items:center;
-    display:flex;
+   
 }
 
-main{
-    background-image: url(contact.jpg);
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    background-position:center;
-    background-repeat: no-repeat;
-    
-}
 
 .navbar{
     margin-bottom: 0px;
 }
-
-
-.flex-container {
-    width: 1400px;
-    margin: 0 auto;
-    overflow: hidden;
-    display: block;
-}
-
-.flex-item1 {
-    width: 400px;
-    margin: 0px 60px 0px 10px;
-}
-
-.flex-item{
-    width:100px;
-    margin: 20px;
-    align-items: center;
- 
-}
-
 h1{
     color:white;
 }
-p{
-    color:white;
-    margin-top:-20px;
-    font-size:16px;
-
-}
-
 footer{
    background-color: #FAFAFB;
     flex: 0 0 auto;
@@ -93,6 +56,3 @@ footer{
     justify-content:space-around;
     height: 60px;
 }
-
-@media only screen and (max-width: 767px) {   main {
-background-image: url(imag/contact.jpg);   } }
