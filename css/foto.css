@@ -11,8 +11,8 @@ html, body{
 body{
     display:flex;
     flex-direction:column;
+    width:100%;
     max-width: 1600px;
-    min-width: 480px;
     height: 100%;
 }
 
